@@ -12,7 +12,7 @@ public class test1 {
 	driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 		}
-	@Test(priority=1)
+	@Test
 	public void login() throws InterruptedException {
 		
 		driver.findElementByXPath("//input[@name='firstname']").sendKeys("alekhya");
