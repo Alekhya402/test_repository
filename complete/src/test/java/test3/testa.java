@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class testa {
 	ChromeDriver driver;
 	@Test
-	public void add() {
+	public void open() {
 		driver=new ChromeDriver();
 		driver.get("https://www.facebook.com/");
 

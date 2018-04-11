@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13896" started-at="2018-04-10T21:11:45Z" finished-at="2018-04-10T21:11:59Z">
+  <suite name="Default suite" duration-ms="12977" started-at="2018-04-11T21:53:01Z" finished-at="2018-04-11T21:53:14Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13896" started-at="2018-04-10T21:11:45Z" finished-at="2018-04-10T21:11:59Z">
+    <test name="Default test" duration-ms="12977" started-at="2018-04-11T21:53:01Z" finished-at="2018-04-11T21:53:14Z">
       <class name="test3.test1">
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:test3.test1@1753acfe]" name="openbrowser" is-config="true" duration-ms="5319" started-at="2018-04-10T16:11:45Z" finished-at="2018-04-10T16:11:50Z">
+        <test-method status="PASS" signature="openbrowser()[pri:0, instance:test3.test1@7c16905e]" name="openbrowser" is-config="true" duration-ms="7310" started-at="2018-04-11T16:53:01Z" finished-at="2018-04-11T16:53:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="login()[pri:1, instance:test3.test1@1753acfe]" name="login" duration-ms="3563" started-at="2018-04-10T16:11:50Z" finished-at="2018-04-10T16:11:54Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:test3.test1@7c16905e]" name="login" duration-ms="3518" started-at="2018-04-11T16:53:09Z" finished-at="2018-04-11T16:53:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="openbrowser()[pri:0, instance:test3.test1@1753acfe]" name="openbrowser" is-config="true" duration-ms="4761" started-at="2018-04-10T16:11:54Z" finished-at="2018-04-10T16:11:58Z">
+        <test-method status="PASS" signature="closebrowser()[pri:0, instance:test3.test1@7c16905e]" name="closebrowser" is-config="true" duration-ms="2123" started-at="2018-04-11T16:53:12Z" finished-at="2018-04-11T16:53:14Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="moredetails()[pri:2, instance:test3.test1@1753acfe]" name="moredetails" duration-ms="211" started-at="2018-04-10T16:11:58Z" finished-at="2018-04-10T16:11:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- moredetails -->
+        </test-method> <!-- closebrowser -->
       </class> <!-- test3.test1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
