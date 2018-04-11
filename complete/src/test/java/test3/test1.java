@@ -23,9 +23,6 @@ public class test1 {
 
 
 	}
-	
-		
-	
 	@AfterMethod
 	public void closebrowser() {
 		driver.close();
