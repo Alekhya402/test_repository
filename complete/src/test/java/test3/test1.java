@@ -19,13 +19,13 @@ public class test1 {
 		driver.findElementByXPath("//input[@name='lastname']").sendKeys("ramidi");
 		driver.findElementByXPath("//input[@name='reg_email__']").sendKeys("2222222");
 		Thread.sleep(3000);
+		driver.findElementByXPath("//input[@autocomplete='new-password']").sendKeys("password");
+
 
 	}
-	@Test(priority=2)
-	public void moredetails() {
-		driver.findElementByXPath("//input[@autocomplete='new-password']").sendKeys("password");
+	
 		
-	}
+	
 	@AfterMethod
 	public void closebrowser() {
 		driver.close();
